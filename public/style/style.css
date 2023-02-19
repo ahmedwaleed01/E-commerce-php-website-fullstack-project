@@ -1,0 +1,183 @@
+
+:root{
+    --navbarcolor:#f4f4f4;
+    --secnavbarcolor:#060001;
+    --pink:#db7bde;
+    --grey:#bdbdbd;
+    --dark:#0a43a6;
+}
+.pink{
+    color: var(--pink);
+}
+.bg_pink{
+    background-color: var(--pink);
+}
+.grey{
+    color: var(--grey);
+   
+}
+.bg_navbarvolor{
+    background-color: var(--navbarcolor);
+    
+}
+.bg_secnavbarcolor{
+    background-color: var(--secnavbarcolor);
+}
+.search{
+    border:  2px solid var(--grey) ;
+    border-radius: 99px;
+    padding: 10px;
+}
+.header-photo{
+    width: 90%;
+    height: auto;
+}
+.main img{
+    height: 570px;
+}
+.main button{
+    position:absolute;
+    top: 70%;
+    border:  2px solid var(--grey) ;
+    border-radius: 99px;
+   
+}
+.main .box{
+     position:absolute;
+     top: 45%;
+    right:39%;
+    transform: (-50%,-50%);
+    
+    background-color: rgba(219,123,222,0.6);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px;
+}
+#right{
+    right:3%;
+}
+#left{
+    left:3%;
+}
+
+
+.image1 img{
+    width: 50%;
+}
+.image2{
+   
+}
+.image2 img{
+    width: 100%;
+   height: 350px;
+}
+.collection_text{
+     padding-top: 3%;
+}
+.head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card_photo{
+  height: 380px;
+}
+.product_name{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.products{
+    flex-wrap: wrap;
+}
+.photosection{
+    height: 290px;
+   width: 100%;
+}
+.offer{
+    font-size: 30px;
+    font-weight: bold;
+    left:30%;
+    top: 20%;
+}
+#offerdiv{
+    font-size: 60px;
+}
+#offerspan{
+    flex-direction: row-reverse;
+}
+.offerr{
+    font-size: 25px;
+    font-weight: bold;
+    right:8%;
+    top: 35%;
+}
+.sizee{
+    font-size: 50px;
+}
+.sales{
+
+}
+.dd{
+  
+    top: 100%;
+    right:45%;
+    transform: (-50%,-50%);
+  
+}
+.dd button{
+   
+    border:  1px solid var(--grey) ;
+}
+.aboutt{
+    background-image: url("../images/156231.jpg");
+    height: fit-content;
+}
+.about{
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+   
+}
+.p_about{
+    font-size: 20px;
+    font-weight: 450;
+   font-style: italic;
+}
+
+footer{
+    background-color: #1d1d1d;
+}
+footer .header{
+    font-size: 15px;
+    font-weight: 700;
+}
+.about_image{
+    width: 100%;
+    height: 100%;
+}
+.card_img{
+    width: 80px;
+    height:60px;
+}
+@media(max-width: 1260px){
+ .aboutt{
+   
+ }
+}
+@media(max-width: 980px){
+     .main .box{
+        display: none;
+    } 
+  
+}
+@media(max-width:971px){
+    .image1 img{
+        width: 70%;
+    }
+    .home_image{
+        
+        height: 60vh !important;
+    }
+}
