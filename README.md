@@ -19,6 +19,5 @@ admin password:admin123
 
 ------------------------------------------------------------------------------
 
-email verification and social auth i tried to make them but there is an error I tried to google it but I didnot
-get to anything to solve this and I contacted the operation team and I am waiting for their response.
+
 
